@@ -10,7 +10,7 @@ This approach can be applied to four classes mainly :-
 The steps followed in performing the given program:-
 Downloaded the dataset from https://www.cs.toronto.edu/~vmnih/data/
 
-Here is the shortcut link for downloaded dataset https://www.cs.toronto.edu/~vmnih/data/
+Here is the shortcut link for downloaded dataset https://drive.google.com/drive/folders/1Cg393dBkLi_D-CCztsp2NO-nyIzttcbI?usp=sharing
 The dataset contains satellite images as well as its masked images.
 
 First step is to import all the required libraries.
