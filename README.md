@@ -1,6 +1,7 @@
 Satellite Image Segmentation
 
-The Repo focus on detecting roads from satellite images.
+This Repository focus on ROAD DETECTION from satellite images.
+
 This approach can be applied to four classes mainly :-
 1. Building Detection
 2. Road Detection
@@ -15,12 +16,12 @@ The dataset contains satellite images as well as its masked images.
 
 First step is to import all the required libraries.
 Initially all the images were resized to 1024 by 1024.
-Then each image was segmented into equal number of patches. (In this case 16 patches.)
+Then each image was segmented into equal number of patches. (In this case 16 patches per image.)
 
 49 satellite images and its masked images were taken as input images and after patchifying we got dataset of 784 patches as an individual image.
 
-Using tensorflow and keras library we split the dataset into 80% trainng and 20% testing images.
-Passed the dataset to unet model.
+Using tensorflow and keras library we split the dataset into 80% training and 20% testing images.
+Passed the dataset to U-Net model.
 
 The U-Net model is a convolutional neural network (CNN) architecture used for image segmentation tasks. It was originally proposed in 2015 by Ronneberger et al. and has since become a popular choice for medical image segmentation.
 
